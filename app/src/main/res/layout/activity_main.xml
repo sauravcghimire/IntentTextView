@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tenhaff.textviewwithintent.IntentTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="http://www.google.com"
+        app:intentType="web"
+        android:padding="16dp"/>
+    <com.tenhaff.textviewwithintent.IntentTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+14991942"
+        app:intentType="phone"
+        android:padding="16dp"/>
+    <com.tenhaff.textviewwithintent.IntentTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pepsicola"
+        app:intentType="address"
+        android:padding="16dp"/>
+
+
+</LinearLayout>
